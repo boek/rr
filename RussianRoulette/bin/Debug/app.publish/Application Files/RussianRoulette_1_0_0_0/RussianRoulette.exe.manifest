@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="RussianRoulette.exe" version="1.0.0.0" publicKeyToken="165f82fa8c36682a" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="RussianRoulette" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="RussianRoulette.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="RussianRoulette.exe" size="9216">
+      <assemblyIdentity name="RussianRoulette" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>hhmEn2PtlFdoILZIC7eX6bdlt3c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=thematrix\Jeff" issuerKeyHash="1de20ab50fbf0099dd8985a81372a2680f29b20e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>HIvyl8Pg+egPYCcMSl/+0S/G+/4=</DigestValue></Reference></SignedInfo><SignatureValue>q5De4Fjtdq+eLbQuRxi6oQMS3d7YrOzsBAVAZ4lpWO2xWENg4jXCNHahHoR8M8Cj+pRZneEAD55ikTpK8kRoO7SIUzICn5VG4eS71ECAdt3BwgZSD9tSi6wiLeNSELruPkkYep1hViFUhoZNZKntpw/9eUbZExhfzWqZxIg/OcA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>z5WWSZ9/jLhugyR8aWP+MmleKcP6QVVACu/F5NE70mq+nri33MaGFcix8nX1vlVRfjOZ9KgFkI+1J0TLLNLfEpOQFyX7jDe66gytK5LBpNBKduzS3y5s/Ocq9pKi36XstCybQkKve7o3S0SIiXQDGSf1aZA8iWEKKVTciJalwus=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fefbc62fd1fe5f4a0c27600fe8f9e0c397f28b1c" Description="" Url=""><as:assemblyIdentity name="RussianRoulette.exe" version="1.0.0.0" publicKeyToken="165f82fa8c36682a" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=thematrix\Jeff</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>xhJy9XNgJ1joEIRDQEqHoIyhtLA=</DigestValue></Reference></SignedInfo><SignatureValue>FDDePcCuwtEJaxKTpkPuA270vVGUFKLXUYF8mj2NIQse0dWfFnMglQaWjnaSytnCzGcIyPa/sLvezQrp21iZ/HhRKDnTPfPPElSz3aJhR6NjHyzeA0i2ded2uLPOTRE/p1fkdMBdmgpOG9sJo0OW5YWePjCgIxboG9ChhRURZms=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>z5WWSZ9/jLhugyR8aWP+MmleKcP6QVVACu/F5NE70mq+nri33MaGFcix8nX1vlVRfjOZ9KgFkI+1J0TLLNLfEpOQFyX7jDe66gytK5LBpNBKduzS3y5s/Ocq9pKi36XstCybQkKve7o3S0SIiXQDGSf1aZA8iWEKKVTciJalwus=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQHyb9/lMX2o9F/ooDuPylDjANBgkqhkiG9w0BAQUFADAnMSUwIwYDVQQDHhwAdABoAGUAbQBhAHQAcgBpAHgAXABKAGUAZgBmMB4XDTExMDkwODAzMTkxNFoXDTEyMDkwNzA5MTkxNFowJzElMCMGA1UEAx4cAHQAaABlAG0AYQB0AHIAaQB4AFwASgBlAGYAZjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAz5WWSZ9/jLhugyR8aWP+MmleKcP6QVVACu/F5NE70mq+nri33MaGFcix8nX1vlVRfjOZ9KgFkI+1J0TLLNLfEpOQFyX7jDe66gytK5LBpNBKduzS3y5s/Ocq9pKi36XstCybQkKve7o3S0SIiXQDGSf1aZA8iWEKKVTciJalwusCAwEAATANBgkqhkiG9w0BAQUFAAOBgQDF1q0NUSuTL1m11JEz1jRc/onEzdatDLZIMxszSAMrTEj3fgPObohJYkSfeTbvx/22iCottqZCwc/K9zwgeIsa1ubDM7iWwgSAQGrfA3aqzLA0qB3f7L1V0O/wiCgRxqZ+ZgqPIDFvUqCLagW0LPUjfvy1PymAPL4+jU/Aqyt4sQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
